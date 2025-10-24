@@ -1,5 +1,5 @@
 # Next.js DevContainer Dockerfile
-FROM mcr.microsoft.com/devcontainers/javascript-node:18
+FROM mcr.microsoft.com/devcontainers/javascript-node:20
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
